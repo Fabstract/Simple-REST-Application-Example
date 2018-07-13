@@ -1,0 +1,823 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9f412e4fbb36c228f1dbc5fa0bb35970",
+    "packages": [
+        {
+            "name": "fabstract/assert",
+            "version": "v0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/Assert.git",
+                "reference": "30c2df59e52a8d2990db507c85661514426d5f53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/Assert/zipball/30c2df59e52a8d2990db507c85661514426d5f53",
+                "reference": "30c2df59e52a8d2990db507c85661514426d5f53",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\Assert\\": "src",
+                    "Fabstract\\Component\\Assert\\Test\\": "test"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "Assertion for PHP",
+            "keywords": [
+                "assert",
+                "php"
+            ],
+            "time": "2018-05-30T07:57:43+00:00"
+        },
+        {
+            "name": "fabstract/datetime-handler",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/DateTimeHandler.git",
+                "reference": "bca9610bae1090fb1f72704e3b5f1f7cbad5316f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/DateTimeHandler/zipball/bca9610bae1090fb1f72704e3b5f1f7cbad5316f",
+                "reference": "bca9610bae1090fb1f72704e3b5f1f7cbad5316f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\DateTimeHandler\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "DateTimeHandler library for PHP",
+            "keywords": [
+                "date",
+                "datetime",
+                "php",
+                "time"
+            ],
+            "time": "2018-04-27T13:32:05+00:00"
+        },
+        {
+            "name": "fabstract/di",
+            "version": "v0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/Dependency-Injection.git",
+                "reference": "7c77bdc4787dccc0f1a8dc6240316541f08ca0a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/Dependency-Injection/zipball/7c77bdc4787dccc0f1a8dc6240316541f08ca0a5",
+                "reference": "7c77bdc4787dccc0f1a8dc6240316541f08ca0a5",
+                "shasum": ""
+            },
+            "require": {
+                "fabstract/assert": "^0.1.0",
+                "php": "^7.0",
+                "psr/container": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\DependencyInjection\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "Dependency Injection for PHP",
+            "keywords": [
+                "dependency",
+                "dependency injection",
+                "di",
+                "injection",
+                "php"
+            ],
+            "time": "2018-04-17T09:20:19+00:00"
+        },
+        {
+            "name": "fabstract/event",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/Event.git",
+                "reference": "2ea31f1c68f177b1c3aa90cb0491826637f92976"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/Event/zipball/2ea31f1c68f177b1c3aa90cb0491826637f92976",
+                "reference": "2ea31f1c68f177b1c3aa90cb0491826637f92976",
+                "shasum": ""
+            },
+            "require": {
+                "fabstract/assert": "^0.1.0",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\Event\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "Event library for PHP",
+            "keywords": [
+                "event",
+                "php"
+            ],
+            "time": "2018-03-29T14:22:32+00:00"
+        },
+        {
+            "name": "fabstract/http-application",
+            "version": "v0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/HTTP-Application.git",
+                "reference": "0f1dbeea1e4051d656c0ddbf66a3f059d683d352"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/HTTP-Application/zipball/0f1dbeea1e4051d656c0ddbf66a3f059d683d352",
+                "reference": "0f1dbeea1e4051d656c0ddbf66a3f059d683d352",
+                "shasum": ""
+            },
+            "require": {
+                "fabstract/assert": "^0.1.0",
+                "fabstract/datetime-handler": "^0.1.0",
+                "fabstract/di": "^0.4.0",
+                "fabstract/event": "^0.2.0",
+                "fabstract/lazy": "^0.2.0",
+                "fabstract/linq": "^0.1.0",
+                "fabstract/router": "^0.3.0",
+                "fabstract/serializer": "^0.2.0",
+                "php": "^7.1",
+                "psr/log": "^1.0",
+                "symfony/http-foundation": "3.4.6-BETA5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\Http\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "HTTP Application for PHP",
+            "keywords": [
+                "application",
+                "http",
+                "http application",
+                "php"
+            ],
+            "time": "2018-06-18T11:48:40+00:00"
+        },
+        {
+            "name": "fabstract/lazy",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/Lazy.git",
+                "reference": "558b6d43777353899f74fa2aba866601031f6556"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/Lazy/zipball/558b6d43777353899f74fa2aba866601031f6556",
+                "reference": "558b6d43777353899f74fa2aba866601031f6556",
+                "shasum": ""
+            },
+            "require": {
+                "fabstract/assert": "^0.1.0",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\Lazy\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "Lazy loading for PHP",
+            "keywords": [
+                "lazy",
+                "php"
+            ],
+            "time": "2018-03-29T14:24:19+00:00"
+        },
+        {
+            "name": "fabstract/linq",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/LINQ.git",
+                "reference": "cb574e35bb88b74196c5f059281a2830126cd926"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/LINQ/zipball/cb574e35bb88b74196c5f059281a2830126cd926",
+                "reference": "cb574e35bb88b74196c5f059281a2830126cd926",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\LINQ\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "LINQ library for PHP",
+            "keywords": [
+                "linq",
+                "php"
+            ],
+            "time": "2018-03-19T12:14:04+00:00"
+        },
+        {
+            "name": "fabstract/rest",
+            "version": "v0.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/REST-Application.git",
+                "reference": "d4207a83f432c28f4e795db79157823d677e85df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/REST-Application/zipball/d4207a83f432c28f4e795db79157823d677e85df",
+                "reference": "d4207a83f432c28f4e795db79157823d677e85df",
+                "shasum": ""
+            },
+            "require": {
+                "fabstract/http-application": "^0.7.0",
+                "fabstract/validator": "^0.4.0",
+                "php": "^7.1",
+                "symfony/http-foundation": "3.4.6-BETA5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\REST\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "REST library for PHP",
+            "keywords": [
+                "php",
+                "rest"
+            ],
+            "time": "2018-06-18T07:29:51+00:00"
+        },
+        {
+            "name": "fabstract/router",
+            "version": "v0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/Router.git",
+                "reference": "09f8b96c1e0a338df730846dfe0b5a9e59eb4f90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/Router/zipball/09f8b96c1e0a338df730846dfe0b5a9e59eb4f90",
+                "reference": "09f8b96c1e0a338df730846dfe0b5a9e59eb4f90",
+                "shasum": ""
+            },
+            "require": {
+                "fabstract/assert": "^0.1.0",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\Router\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "Routing library for PHP",
+            "keywords": [
+                "php",
+                "router"
+            ],
+            "time": "2018-04-10T07:11:42+00:00"
+        },
+        {
+            "name": "fabstract/serializer",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/Serializer.git",
+                "reference": "d775467d81b902c32639ed266d452fed5d9c7e9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/Serializer/zipball/d775467d81b902c32639ed266d452fed5d9c7e9a",
+                "reference": "d775467d81b902c32639ed266d452fed5d9c7e9a",
+                "shasum": ""
+            },
+            "require": {
+                "fabstract/assert": "^0.1.0",
+                "fabstract/event": "^0.2.0",
+                "fabstract/lazy": "^0.2.0",
+                "fabstract/linq": "^0.1.0",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\Serializer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "Serializer library for PHP",
+            "keywords": [
+                "php",
+                "serialize"
+            ],
+            "time": "2018-05-28T13:35:18+00:00"
+        },
+        {
+            "name": "fabstract/validator",
+            "version": "v0.4.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/Validator.git",
+                "reference": "fade9504e9ba94ebc69a356351b31d1bf32886b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/Validator/zipball/fade9504e9ba94ebc69a356351b31d1bf32886b5",
+                "reference": "fade9504e9ba94ebc69a356351b31d1bf32886b5",
+                "shasum": ""
+            },
+            "require": {
+                "fabstract/assert": "^0.1.0",
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fabstract\\Component\\Validator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ahmet Turk",
+                    "email": "ahmetturk93@gmail.com",
+                    "homepage": "https://github.com/fabstract"
+                }
+            ],
+            "description": "Data validator library for PHP",
+            "keywords": [
+                "php",
+                "validator"
+            ],
+            "time": "2018-06-08T08:48:30+00:00"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v2.0.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/29af24f25bab834fcbb38ad2a69fa93b867e070d",
+                "reference": "29af24f25bab834fcbb38ad2a69fa93b867e070d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/random.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "polyfill",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2018-07-04T16:31:37+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "v3.4.6-BETA5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fabstract/http-foundation.git",
+                "reference": "0334fd3557c6031bb96ce540740ad9c089438f15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fabstract/http-foundation/zipball/0334fd3557c6031bb96ce540740ad9c089438f15",
+                "reference": "0334fd3557c6031bb96ce540740ad9c089438f15",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/polyfill-mbstring": "~1.1",
+                "symfony/polyfill-php70": "~1.6"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.8|~3.0|~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\HttpFoundation\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony HttpFoundation Component",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/Fabstract/http-foundation/tree/v3.4.6-BETA5"
+            },
+            "time": "2018-03-23T08:43:25+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "3296adf6a6454a050679cde90f95350ad604b171"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/3296adf6a6454a050679cde90f95350ad604b171",
+                "reference": "3296adf6a6454a050679cde90f95350ad604b171",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2018-04-26T10:06:28+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php70",
+            "version": "v1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php70.git",
+                "reference": "77454693d8f10dd23bb24955cffd2d82db1007a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/77454693d8f10dd23bb24955cffd2d82db1007a6",
+                "reference": "77454693d8f10dd23bb24955cffd2d82db1007a6",
+                "shasum": ""
+            },
+            "require": {
+                "paragonie/random_compat": "~1.0|~2.0",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php70\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2018-04-26T10:06:28+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "symfony/http-foundation": 10
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.0"
+    },
+    "platform-dev": []
+}

@@ -1,0 +1,22 @@
+{
+  "name": "fabstract/simple-rest",
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Fabstract\\Component\\SimpleRestApplication\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "fabstract/rest": "^0.7.0",
+    "symfony/http-foundation": "3.4.6-BETA5"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:Fabstract/http-foundation.git"
+    }
+  ]
+}
