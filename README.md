@@ -177,7 +177,7 @@ curl -i -X HEAD yourdomain.postfix/user
 
 will result below:
 ```bash
-HTTP/1.1 405 OK
+HTTP/1.1 405 Method Not Allowed
 Content-Type: application/json
 
 {"error_message":"method_not_allowed","status":"failure"}
@@ -190,7 +190,7 @@ curl -i -X HEAD yourdomain.postfix/product
 ```
 will result below:
 ```bash
-HTTP/1.1 404 OK
+HTTP/1.1 404 Not Found
 Content-Type: application/json
 
 {"error_message":"not_found","status":"failure"}
@@ -227,7 +227,7 @@ curl -i -X POST yourdomain.postfix/user -H"Content-Type: application/json"
 you will get following:
 
 ```bash
-HTTP/1.1 403 OK
+HTTP/1.1 403 Forbidden
 Content-Type: application/json
 
 {"error_message":"forbidden","status":"failure"}
