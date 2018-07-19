@@ -3,18 +3,18 @@
 namespace Fabstract\Component\SimpleRestApplication\Module;
 
 use Fabstract\Component\DependencyInjection\ServiceProviderInterface;
+use Fabstract\Component\Http\ControllerProviderInterface;
 use Fabstract\Component\Http\ModuleBase;
-use Fabstract\Component\Http\ResourceProviderInterface;
 
 class Module extends ModuleBase
 {
 
     /**
-     * @return ResourceProviderInterface|string
+     * @return ControllerProviderInterface|string
      */
-    public function getResourceProvider()
+    public function getControllerProvider()
     {
-        return ResourceProvider::class;
+        return ControllerProvider::class;
     }
 
     /**

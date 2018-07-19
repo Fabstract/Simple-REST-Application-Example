@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f412e4fbb36c228f1dbc5fa0bb35970",
+    "content-hash": "6f36cb0fd14e5c566899d99ac85f3061",
     "packages": [
         {
             "name": "fabstract/assert",
@@ -96,16 +96,16 @@
         },
         {
             "name": "fabstract/di",
-            "version": "v0.4.1",
+            "version": "v0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fabstract/Dependency-Injection.git",
-                "reference": "7c77bdc4787dccc0f1a8dc6240316541f08ca0a5"
+                "reference": "c6c09faad9bf8e035428a2e35544c0a561f8e9f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fabstract/Dependency-Injection/zipball/7c77bdc4787dccc0f1a8dc6240316541f08ca0a5",
-                "reference": "7c77bdc4787dccc0f1a8dc6240316541f08ca0a5",
+                "url": "https://api.github.com/repos/Fabstract/Dependency-Injection/zipball/c6c09faad9bf8e035428a2e35544c0a561f8e9f5",
+                "reference": "c6c09faad9bf8e035428a2e35544c0a561f8e9f5",
                 "shasum": ""
             },
             "require": {
@@ -138,7 +138,7 @@
                 "injection",
                 "php"
             ],
-            "time": "2018-04-17T09:20:19+00:00"
+            "time": "2018-07-18T14:19:27+00:00"
         },
         {
             "name": "fabstract/event",
@@ -184,22 +184,22 @@
         },
         {
             "name": "fabstract/http-application",
-            "version": "v0.7.1",
+            "version": "v0.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fabstract/HTTP-Application.git",
-                "reference": "0f1dbeea1e4051d656c0ddbf66a3f059d683d352"
+                "reference": "5feae2c28b83da4feb61bf1bd82d6858082255eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fabstract/HTTP-Application/zipball/0f1dbeea1e4051d656c0ddbf66a3f059d683d352",
-                "reference": "0f1dbeea1e4051d656c0ddbf66a3f059d683d352",
+                "url": "https://api.github.com/repos/Fabstract/HTTP-Application/zipball/5feae2c28b83da4feb61bf1bd82d6858082255eb",
+                "reference": "5feae2c28b83da4feb61bf1bd82d6858082255eb",
                 "shasum": ""
             },
             "require": {
                 "fabstract/assert": "^0.1.0",
                 "fabstract/datetime-handler": "^0.1.0",
-                "fabstract/di": "^0.4.0",
+                "fabstract/di": "^0.5.0",
                 "fabstract/event": "^0.2.0",
                 "fabstract/lazy": "^0.2.0",
                 "fabstract/linq": "^0.1.0",
@@ -233,7 +233,7 @@
                 "http application",
                 "php"
             ],
-            "time": "2018-06-18T11:48:40+00:00"
+            "time": "2018-07-18T15:16:05+00:00"
         },
         {
             "name": "fabstract/lazy",
@@ -317,20 +317,20 @@
         },
         {
             "name": "fabstract/rest",
-            "version": "v0.7.0",
+            "version": "v0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fabstract/REST-Application.git",
-                "reference": "d4207a83f432c28f4e795db79157823d677e85df"
+                "reference": "ce0eaa6368848b47843553b0aec640a793df74a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fabstract/REST-Application/zipball/d4207a83f432c28f4e795db79157823d677e85df",
-                "reference": "d4207a83f432c28f4e795db79157823d677e85df",
+                "url": "https://api.github.com/repos/Fabstract/REST-Application/zipball/ce0eaa6368848b47843553b0aec640a793df74a0",
+                "reference": "ce0eaa6368848b47843553b0aec640a793df74a0",
                 "shasum": ""
             },
             "require": {
-                "fabstract/http-application": "^0.7.0",
+                "fabstract/http-application": "^0.9.0",
                 "fabstract/validator": "^0.4.0",
                 "php": "^7.1",
                 "symfony/http-foundation": "3.4.6-BETA5"
@@ -357,7 +357,7 @@
                 "php",
                 "rest"
             ],
-            "time": "2018-06-18T07:29:51+00:00"
+            "time": "2018-07-18T15:20:07+00:00"
         },
         {
             "name": "fabstract/router",
@@ -403,16 +403,16 @@
         },
         {
             "name": "fabstract/serializer",
-            "version": "v0.2.1",
+            "version": "v0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fabstract/Serializer.git",
-                "reference": "d775467d81b902c32639ed266d452fed5d9c7e9a"
+                "reference": "8d7ea7362b1235cd8bd622be62e5c4d41ad8f9ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fabstract/Serializer/zipball/d775467d81b902c32639ed266d452fed5d9c7e9a",
-                "reference": "d775467d81b902c32639ed266d452fed5d9c7e9a",
+                "url": "https://api.github.com/repos/Fabstract/Serializer/zipball/8d7ea7362b1235cd8bd622be62e5c4d41ad8f9ed",
+                "reference": "8d7ea7362b1235cd8bd622be62e5c4d41ad8f9ed",
                 "shasum": ""
             },
             "require": {
@@ -444,7 +444,7 @@
                 "php",
                 "serialize"
             ],
-            "time": "2018-05-28T13:35:18+00:00"
+            "time": "2018-07-16T08:25:43+00:00"
         },
         {
             "name": "fabstract/validator",

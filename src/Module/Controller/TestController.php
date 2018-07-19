@@ -1,11 +1,11 @@
 <?php
 
-namespace Fabstract\Component\SimpleRestApplication\Module\Resource;
+namespace Fabstract\Component\SimpleRestApplication\Module\Controller;
 
 use Fabstract\Component\Http\Bag\EndpointBag;
-use Fabstract\Component\Http\ResourceBase;
+use Fabstract\Component\Http\ControllerBase;
 
-class TestResource extends ResourceBase
+class TestController extends ControllerBase
 {
 
     /**
