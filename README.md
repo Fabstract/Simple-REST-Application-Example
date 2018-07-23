@@ -1,6 +1,6 @@
-# Simple-REST-Application
+# Simple-REST-Application-Example
 
-Simple REST Application is the simplest **Fabstract** REST application possible.
+This application is the simplest **Fabstract** REST application possible.
 
 ## [Documentation](https://github.com/Fabstract/Simple-REST-Application/wiki)
  * **[Installation](https://github.com/Fabstract/Simple-REST-Application/wiki/1.-Installation)**
