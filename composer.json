@@ -10,13 +10,6 @@
   },
   "require": {
     "php": "^7.0",
-    "fabstract/rest": "^0.8.0",
-    "symfony/http-foundation": "3.4.6-BETA5"
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:Fabstract/http-foundation.git"
-    }
-  ]
+    "fabstract/rest": "^0.10.0"
+  }
 }
